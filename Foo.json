@@ -1,0 +1,26 @@
+{
+    "name": "Foo",
+    "role": "Bar",
+    "daily_work": [
+        {
+            "hours_worked": 5,
+            "task": "foo1"
+        },
+        {
+            "hours_worked": 4,
+            "task": "foo2"
+        },
+        {
+            "hours_worked": 5,
+            "task": "foo3"
+        },
+        {
+            "hours_worked": 3,
+            "task": "foo4"
+        },
+        {
+            "hours_worked": 2,
+            "task": "foo5"
+        }
+    ]
+}
