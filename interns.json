@@ -1,0 +1,74 @@
+{
+    "INT001": {
+        "intern_id": "INT001",
+        "name": "Foo",
+        "role": "Bar",
+        "daily_hours": 4,
+        "daily_tasks": 4,
+        "status": "Active",
+        "daily_work": []
+    },
+    "INT002": {
+        "intern_id": "INT002",
+        "name": "Foo",
+        "role": "Baar",
+        "daily_hours": 4,
+        "daily_tasks": 4,
+        "status": "Active",
+        "daily_work": [
+            {
+                "hours": 4,
+                "task": "foo1"
+            }
+        ]
+    },
+    "INT003": {
+        "intern_id": "INT003",
+        "name": "Rahul Sharma",
+        "role": "Backend Developer",
+        "daily_hours": 8,
+        "daily_tasks": 5,
+        "status": "Active",
+        "daily_work": [
+            {
+                "hours": 2,
+                "task": "Implemented user authentication module"
+            },
+            {
+                "hours": 3,
+                "task": "Fixed bug in login API endpoint"
+            }
+        ]
+    },
+    "INT004": {
+        "intern_id": "INT004",
+        "name": "Priya Patel",
+        "role": "Frontend Developer",
+        "daily_hours": 6,
+        "daily_tasks": 4,
+        "status": "Inactive",
+        "daily_work": [
+            {
+                "hours": 3,
+                "task": "Created database models for activity tracking"
+            },
+            {
+                "hours": 4,
+                "task": "Created database models for activity tracking"
+            },
+            {
+                "hours": 5,
+                "task": "Created database models for activity tracking"
+            }
+        ]
+    },
+    "INT005": {
+        "intern_id": "INT005",
+        "name": "Amit Kumar",
+        "role": "Data Analyst",
+        "daily_hours": 7,
+        "daily_tasks": 3,
+        "status": "Active",
+        "daily_work": []
+    }
+}

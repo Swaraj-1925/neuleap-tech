@@ -1,0 +1,3 @@
+fastapi[standard]==0.115.0
+aiofiles==24.1.0
+uvicorn==0.32.0

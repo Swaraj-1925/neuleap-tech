@@ -1,22 +1,33 @@
-from intern import Intern
+from manger import load_interns, add_intern, add_daily_activity, update_intern_status, view_intern_summary, overall_statistics
 
 def main():
-    print("Enter Intern Details")
-    name = input("Name: ")
-    role = input("Role: ")
+    interns = load_interns()
 
-    try:
-        daily_hours = int(input("Expected daily hours: "))
-        daily_tasks = int(input("Expected daily tasks: "))
-    except ValueError:
-        print("Invalid numeric input.")
-        return
+    while True:
+        print("\n--- Intern Management System ---")
+        print("1. Add Intern")
+        print("2. Add Daily Activity")
+        print("3. Update Intern Status")
+        print("4. View Intern Summary")
+        print("5. Overall Statistics")
+        print("6. Exit")
 
-    intern = Intern(name, role, daily_hours, daily_tasks)
+        choice = input("Choose an option: ")
 
-    intern.log_activity()
-    intern.calculate_stat()
-    intern.store_stat()
-    intern.summary()
+        if choice == "1":
+            add_intern(interns)
+        elif choice == "2":
+            add_daily_activity(interns)
+        elif choice == "3":
+            update_intern_status(interns)
+        elif choice == "4":
+            view_intern_summary(interns)
+        elif choice == "5":
+            overall_statistics(interns)
+        elif choice == "6":
+            print("Exiting program.")
+            break
+        else:
+            print("Invalid choice.")
 
 main()
